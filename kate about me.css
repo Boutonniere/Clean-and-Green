@@ -1,0 +1,254 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+  
+  }
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(northern-lights.jpg);
+    background-size: cover;
+    background-position: center;
+  }
+  .wrapper {
+    margin: 150px auto;
+    width: 70%;
+  }
+  img {
+    max-width: 320px;
+    float: left;
+    border: 5px solid;
+    border-radius: 10px;
+    margin-right: 15px;
+  }
+  .text-box {
+    color: white;
+  }
+  .text-box h5 {
+    font-size: 40px;
+    color: #B2AC88;
+  }
+  .text-box p{
+    font-size: 16px;
+    margin: 10px;
+    color: white;
+    text-align: justify;
+    box-shadow: -1 0px 10px #000;
+  }
+  *{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+    
+  }
+  .banner{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(northern-lights.jpg);
+    background-size: cover;
+    background-position: center;
+  }
+  .navbar{
+    width: 85%;
+    margin: auto;
+    padding: 35px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  
+  }
+  .logo{
+    width: 120px;
+    cursor: pointer;
+  }
+  .navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    position: relative;
+    font-weight: bold;
+  }
+  .navbar ul li a{
+    text-decoration: none;
+    color: #fff;
+    text-transform: initial;
+  }
+  .navbar ul li::after{
+    content: '';
+    height: 3px;
+    width: 0;
+    background: #016864;
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    transition: 0.5s;
+  }
+  .navbar ul li:hover::after{
+    width: 100%;
+  }
+  .content{
+    width: 100%;
+    position: absolute;
+    top: 10%;
+    transform: translateY(-50%);
+    text-align: center;
+    color: #fff;
+  }
+  .content h1{
+    font-size: 70px;
+    margin-top: -80px;
+  }
+  .content p{
+    margin: 20px auto;
+    font-weight: 100;
+    line-height: 25px;
+  }
+  .ctn{
+    padding: 8px 15px;
+    background: #fdfbfb00;
+    border-radius: 30px;
+    color: #e1e1e1;
+  }
+  .button {
+    color: rgb(241, 237, 237);
+    display: contents;
+  }
+  button{
+    width: 200px;
+    padding: 15px 0;
+    font-size: 20px;
+    text-align: center;
+    margin: 20px 10px;
+    border-radius: 25px;
+    font-weight: bold;
+    border: 2px solid #7e7e7e;
+    background: transparent;
+    color: #aeaaaa;
+    position: relative;
+    overflow: hidden;
+  }
+  span{
+    background: #016864;
+    height: 100%;
+    width: 0;
+    border-radius: 25px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+    transition: 0.5s;
+  }
+  button:hover span{
+    width: 100%;
+    background: aliceblue;
+    color: #016864;
+  }
+  button:hover{
+    border: none;
+  }
+  .dropdown {
+    position: relative;
+    list-style: none;
+    display: inline-block;
+    margin: 0px;
+  
+  }
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    width: 100%;
+    overflow: auto;
+    transform: translateY(-50%);
+    text-align: center;
+    color: #fff;
+    border: none;
+    margin: auto;
+    padding: 35px 0;
+    justify-content: space-between;
+    font-weight: bold;
+  }
+  .dropdown:hover .dropdown-content {
+    display: none;
+    
+  }
+  .dropdown-content a {
+    display: block;
+    color: #ffffff;
+    padding: 5px;
+    text-decoration: none;
+  }
+  .dropdown-content a:hover {
+    color: #FFFFFF;
+    background-color: #00A4BD;
+    border: none;
+    
+  }
+  .dropdown {
+  display: inline-block;
+  position: relative;
+  }
+  .dropdown-content {
+  display: none;
+  position: absolute;
+  width: 100%;
+  overflow: auto;
+  box-shadow: 0px 10px 10px 0px rgba(0,0,0,0);
+  }
+  .dropdown:hover .dropdown-content {
+  display: block;
+  }
+  .dropdown-content a {
+  display: block;
+  color: white;
+  padding: 5px;
+  text-decoration: none;
+  }
+  .dropdown-content a:hover {
+  color: #FFFFFF;
+  background-color: #00A4BD;
+  }
+  
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(northern-lights.jpg);
+    background-size: cover;
+    background-position: center;
+  }
+  .wrapper {
+    margin: 0px auto;
+    width: 70%;
+    margin-bottom: 200px;
+  }
+  img {
+    max-width: 320px;
+    float: right;
+    border: 3px solid;
+    border-radius: 10px;
+    margin-left: 15px;
+  }
+  .text-box {
+    color: white;
+  }
+  .text-box h6 {
+    font-size: 42px;
+    color: #B2AC88;
+  }
+  .text-box p{
+    font-size: 16px;
+    color: white;
+    text-align: justify;
+    box-shadow: -1 0px 10px #000;
+  }
+  
